@@ -1,1 +1,173 @@
 /* stylesheet for crypto */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', "Roboto", 
+                "Oxygen", "Ubuntu", "Cantarell", 'Fira Sans', "Driod Sans", 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* header style */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.header {
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.logo-section h1 {
+  font-size: 2.5rem;
+  background: #add8e5;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.logo-section p {
+  color: #a0a0b0;
+  font-size: 0.95rem;
+}
+
+.search-section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 50px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  backdrop-filter: blur(10px);
+}
+
+.search-input::placeholder {
+  color: #6b6b7a;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #add8e6;
+  box-shadow: 0 0 0 3px rgba(173, 216, 230, 0.2);
+  background: rgba(255,255,255,0.08);
+}
+
+/* controls style */
+.controls {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter-group label {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.filter-group select {
+  padding: 0.75rem 1.25rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.filter-group select:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #add8e6;
+  box-shadow: 0 0 0 3px rgba(173,216,230,0.2);
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-toggle button {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05);
+  color: #e0e0e0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.view-toggle button:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.view-toggle button.active {
+  background: #add8e6;
+  color: #010203;
+  border-color: transparent;
+  box-shadow: 0 4px 15px rgba(173,216,230,0.3);
+}
+
+/* crypto card */
+
+/* loading state */
+
+/* footer */
+
+/* back button */
+
+/* coin detail page */
+
+/* responsive design */
