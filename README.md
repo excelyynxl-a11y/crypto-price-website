@@ -1,16 +1,43 @@
-# React + Vite
+# 🚀 Crypto Dashboard — Powered by CoinGecko API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Responsive **crypto tracking web application** that displays real-time cryptocurrency data using the **CoinGecko API**.  
+Users can browse top cryptocurrencies, view detailed metrics, and explore a **7-day interactive chart** powered by **Recharts**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Live cryptocurrency prices  
+- 24h price change %  
+- Market cap and volume  
+- Coin logo, symbol, and rank  
+- Responsive UI design
 
-## React Compiler
+## 📈 Crypto Details Page
+Clicking on any crypto card opens a dedicated details page showing:
+- Current price  
+- High / low  
+- Market cap  
+- Trading volume  
+- Price change %  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📉 7-Day Interactive Chart
+- Built with **Recharts**  
+- Smooth hover interaction  
+- Tooltip showing time / date and price  
+- Responsive line chart
 
-## Expanding the ESLint configuration
+### ⚡ CoinGecko Integration
+- Real-time data  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| React | UI framework |
+| CoinGecko API | Crypto market data |
+| Recharts | 7-day chart visualisation |
+| Fetch | CoinGecko API  |
+
+---
