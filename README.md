@@ -26,7 +26,7 @@ Clicking on any crypto card opens a dedicated details page showing:
 - Tooltip showing time / date and price  
 - Responsive line chart
 
-### ⚡ CoinGecko Integration
+## ⚡ CoinGecko Integration
 - Real-time data  
 
 ---
@@ -41,3 +41,5 @@ Clicking on any crypto card opens a dedicated details page showing:
 | Fetch | CoinGecko API  |
 
 ---
+## 🔗 Live Demo
+[Crypto Dashboard hosted on Vercel](https://crypto-price-website-umber.vercel.app/)
